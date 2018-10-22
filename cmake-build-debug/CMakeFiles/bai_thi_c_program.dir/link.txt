@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2018.2.4\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\bai_thi_c_program.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\bai_thi_c_program.dir/objects.a @CMakeFiles\bai_thi_c_program.dir\objects1.rsp
+C:\MinGW\bin\gcc.exe -g   -Wl,--whole-archive CMakeFiles\bai_thi_c_program.dir/objects.a -Wl,--no-whole-archive  -o bai_thi_c_program.exe -Wl,--out-implib,libbai_thi_c_program.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\bai_thi_c_program.dir\linklibs.rsp
